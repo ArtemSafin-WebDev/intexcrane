@@ -1,0 +1,632 @@
+/* Start:/local/templates/xcmg/components/bitrix/news.list/welcome/style.css?16674616992212*/
+.main__welcome {
+  position: relative;
+}
+
+.main__welcome__slider-item {
+  min-height: 28.25vw;
+  padding: 3vw 0 4.5139vw 0;
+  position: relative;
+}
+
+.main__welcome__slider-content {
+  position: relative;
+  z-index: 5;
+}
+
+.main__welcome__slider-title {
+  width: 52.7778vw;
+  margin-bottom: 1.6667vw;
+}
+
+.main__welcome__slider-desc {
+  font-size: 1.25vw;
+  line-height: 1.33;
+  width: 39.5833vw;
+  margin-bottom: 3.3333vw;
+  letter-spacing: -0.01em;
+}
+
+.main__welcome__slider-img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: center;
+  object-position: center;
+}
+
+.main__welcome-pagination--wrapper {
+  position: absolute;
+  bottom: 2.7778vw;
+  left: 0;
+  right: 0;
+  z-index: 5;
+}
+
+.main__welcome-pagination.swiper-pagination-horizontal {
+  bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main__welcome-pagination--item {
+  display: block;
+  width: 6.1806vw;
+  margin-right: 1.6667vw;
+  color: var(--light-blue);
+  text-align: center;
+  cursor: pointer;
+  padding-bottom: 0.4167vw;
+  border-bottom: 0.2083vw solid rgba(0, 60, 107, 0.1);
+  -webkit-transition: border-bottom-color 0.3s;
+  -o-transition: border-bottom-color 0.3s;
+  transition: border-bottom-color 0.3s;
+  font-size: 0.9722vw;
+  line-height: 1.14;
+}
+
+.main__welcome-pagination--item.is-active {
+  border-bottom-color: var(--blue);
+}
+
+@media (max-width: 990.98px) {
+  .main__welcome__slider-item {
+    padding: 9.8667vw 0 12.8vw;
+    min-height: inherit;
+  }
+
+  .main__welcome__slider-title {
+    width: 100%;
+    margin-bottom: 6.4vw;
+  }
+
+  .main__welcome__slider-desc {
+    font-size: 4.8vw;
+    width: 100%;
+    margin-bottom: 8.5333vw;
+  }
+
+  .main__welcome__slider-btn {
+    margin-bottom: 14.6667vw;
+  }
+
+  .main__welcome__slider-img {
+    position: static;
+    top: auto;
+    right: auto;
+    bottom: auto;
+    left: auto;
+    height: auto;
+    width: 100%;
+    margin-top: 8vw;
+  }
+
+  .main__welcome-pagination--wrapper {
+    position: static;
+  }
+
+  .main__welcome-pagination--wrapper .container {
+    padding: 0;
+  }
+
+  .main__welcome-pagination--item {
+    padding-bottom: 1.6vw;
+    border-bottom-width: 0.8vw;
+    font-size: 3.7333vw;
+    width: 26.1333vw;
+    margin-right: 6.4vw;
+  }
+}
+/* End */
+
+/* Start:/local/templates/xcmg/components/bitrix/news.list/advantagesAbout/style.css?1664466463976*/
+.main__about {
+  background-color: var(--blue);
+  background-image: url("/local/templates/xcmg/components/bitrix/news.list/advantagesAbout/img/aboutBg.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  color: #fff;
+  padding: 5vw 0 8.33vw;
+}
+
+.main__about-text {
+  font-size: 1.67vw;
+  line-height: 1.33;
+  font-weight: 300;
+  letter-spacing: -0.04em;
+}
+
+.main__about-text b {
+  font-weight: 800;
+}
+
+.main__about-advantages {
+  margin-top: 11.46vw;
+}
+
+.main__about-advantages--title {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 2.22vw;
+  line-height: 1.25;
+  margin-bottom: 1.11vw;
+}
+
+.main__about-advantages--text {
+  font-size: 1.67vw;
+  line-height: 1.33;
+  letter-spacing: -0.04em;
+}
+
+@media (max-width: 990.98px) {
+  .main__about-title {
+    margin-bottom: 8.157vw;
+  }
+
+  .main__about-text {
+    font-size: 4.267vw;
+  }
+
+  .main__about-advantages--item {
+    margin: 2.667vw 0;
+  }
+
+  .main__about-advantages--title {
+    font-size: 4.8vw;
+  }
+
+  .main__about-advantages--text {
+    font-size: 3.733vw;
+  }
+}
+/* End */
+
+/* Start:/local/templates/xcmg/components/bitrix/news.list/servlicesList/style.css?16644664632997*/
+.services {
+  padding: 7.22vw 0 7.78vw;
+}
+
+.services__loop-item {
+  padding: 2.22vw;
+  border: var(--index) solid var(--gray);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: relative;
+  height: 100%;
+  -webkit-transition: color 0.3s, background 0.3s;
+  -o-transition: color 0.3s, background 0.3s;
+  transition: color 0.3s, background 0.3s;
+}
+
+.services__loop-item--wrapper.swiper-slide {
+  background: #fff;
+  height: auto;
+}
+
+.services__loop-item--icon {
+  width: 4.17vw;
+  height: 4.17vw;
+  display: inline-block;
+  margin-bottom: 5.42vw;
+  color: var(--blue);
+}
+
+.services__loop-item--title {
+  min-height: 3.33vw;
+  font-weight: bold;
+  font-size: 1.67vw;
+  line-height: 1;
+  letter-spacing: -0.01em;
+  margin-bottom: 2.22vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+
+.services__loop-item--text {
+  margin-top: auto;
+  font-size: 1.11vw;
+  line-height: 1;
+}
+
+.services__loop-item--arrow {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 2.78vw;
+  padding-right: 1.74vw;
+  color: var(--dark-gray);
+  -webkit-transition: color 0.3s;
+  -o-transition: color 0.3s;
+  transition: color 0.3s;
+}
+
+.services__loop-item--arrow .icon {
+  height: 100%;
+}
+
+@media (min-width: 991px) {
+  .services__loop-item--wrapper {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1;
+    flex: 1 1;
+    margin-right: 1.667vw;
+  }
+
+  .services__loop-item--wrapper:last-child {
+    margin-right: 0;
+  }
+
+  .services__loop-item:hover {
+    background: var(--blue);
+    color: #fff;
+  }
+
+  .services__loop-item:hover .services__loop-item--icon {
+    color: #fff;
+  }
+
+  .services__loop-item:hover .services__loop-item--arrow {
+    color: #fff;
+  }
+
+  .services-slider--progressbar {
+    display: none;
+  }
+}
+
+@media (max-width: 990.98px) {
+  .services {
+    overflow: hidden;
+  }
+
+  .services {
+    padding: 12.8vw 0;
+  }
+
+  .services__loop-item {
+    padding: 8.533vw;
+  }
+
+  .services__loop-item--wrapper {
+    width: 83.733vw;
+    margin-right: 4.267vw;
+    -webkit-transition: color 0.1s, background 0.3s;
+    -o-transition: color 0.1s, background 0.3s;
+    transition: color 0.1s, background 0.3s;
+  }
+
+  .services__loop-item--wrapper:last-child {
+    margin-right: 0;
+  }
+
+  .services__loop-item--icon {
+    width: 16vw;
+    height: 16vw;
+    margin-bottom: 22.933vw;
+  }
+
+  .services__loop-item--title {
+    font-size: 6.4vw;
+    min-height: 12.8vw;
+    margin-bottom: 8.533vw;
+  }
+
+  .services__loop-item--text {
+    font-size: 4.267vw;
+  }
+
+  .services__loop-item--arrow {
+    width: 7.389vw;
+    padding-right: 2.724vw;
+  }
+
+  .services__loop-item--wrapper.swiper-slide-active {
+    background: var(--blue);
+    color: #fff;
+  }
+
+  .services__loop-item--wrapper.swiper-slide-active .services__loop-item--icon {
+    color: #fff;
+  }
+
+  .services__loop-item--wrapper.swiper-slide-active
+    .services__loop-item--arrow {
+    color: #fff;
+  }
+
+  .services-slider {
+    overflow: visible;
+  }
+}
+/* End */
+
+/* Start:/local/templates/xcmg/components/bitrix/news.list/advantagesOnlyList/style.css?16644664631626*/
+.main__advantages {
+  padding: 5vw 0 4.73vw;
+  background: rgba(0, 70, 156, 0.05);
+  position: relative;
+}
+
+.main__advantages-title {
+  margin-bottom: 2.78vw;
+}
+
+.main__advantages-text {
+  font-size: 1.67vw;
+  line-height: 1.33;
+  letter-spacing: -0.01em;
+}
+
+.main__advantages-loop {
+  margin-top: 3.82vw;
+}
+
+.main__advantages-item {
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 1.67vw 3.26vw 1.67vw 1.67vw;
+  height: 100%;
+}
+
+.main__advantages-item--wrapper {
+  margin: 0.83vw 0;
+}
+
+.main__advantages-item--title {
+  font-size: 2.22vw;
+  line-height: 1.25;
+  margin-bottom: 1.67vw;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: var(--blue);
+}
+
+.main__advantages-item--text {
+  font-size: 1.11vw;
+  line-height: 1;
+  margin-top: auto;
+}
+
+.main__advantages-img {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 56.3vw;
+  pointer-events: none;
+}
+
+@media (max-width: 990.98px) {
+  .main__advantages {
+    padding: 8.533vw 0 0;
+  }
+
+  .main__advantages-title {
+    margin-bottom: 8.533vw;
+  }
+
+  .main__advantages-text {
+    font-size: 4.267vw;
+    line-height: 1.2;
+    letter-spacing: inherit;
+  }
+
+  .main__advantages-loop {
+    margin-top: 6.4vw;
+  }
+
+  .main__advantages-item {
+    padding: 6.4vw;
+  }
+
+  .main__advantages-item--wrapper {
+    margin: 1.067vw;
+  }
+
+  .main__advantages-item--title {
+    font-size: 8.533vw;
+    margin-bottom: 6.4vw;
+  }
+
+  .main__advantages-item--text {
+    font-size: 4.267vw;
+  }
+
+  .main__advantages-img {
+    width: 100%;
+    display: block;
+    position: static;
+  }
+}
+/* End */
+
+/* Start:/local/templates/xcmg/components/bitrix/news.list/advantagesMap/style.css?16644664632495*/
+.main__advantages__map {
+  padding: 4.17vw 0 6.67vw;
+  position: relative;
+}
+
+.main__advantages__map-title {
+  margin-bottom: 3.82vw;
+  position: relative;
+  z-index: 2;
+}
+
+.main__advantages__map-img {
+  display: inline-block;
+  max-width: 66.11vw;
+  position: relative;
+  z-index: 2;
+}
+
+.main__advantages__map-img--wrapper {
+  text-align: right;
+  margin-bottom: 0.97vw;
+}
+
+.main__advantages__map-bg {
+  width: 100%;
+  display: block;
+  position: absolute;
+  height: 100%;
+  -o-object-fit: contain;
+  object-fit: contain;
+  -o-object-position: center;
+  object-position: center;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.main__advantages__map-loop {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: var(--blue);
+  color: #fff;
+  padding: 2.22vw 5.14vw 2.78vw 5.21vw;
+  position: relative;
+  z-index: 2;
+}
+
+.main__advantages__map-item {
+  margin-right: 4.44vw;
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1;
+  flex: 1 1;
+}
+
+.main__advantages__map-item:last-child {
+  margin-right: 0;
+}
+
+.main__advantages__map-item--icon {
+  width: 3.33vw;
+  height: 3.33vw;
+  display: inline-block;
+  margin-bottom: 2.22vw;
+}
+
+.main__advantages__map-item--title {
+  font-size: 1.67vw;
+  line-height: 1.33;
+  letter-spacing: -0.01em;
+  margin-bottom: 0.83vw;
+  white-space: nowrap;
+}
+
+.main__advantages__map-item--text {
+  font-size: 1.11vw;
+  line-height: 1;
+}
+
+@media (max-width: 990.98px) {
+  .main__advantages__map {
+    padding: 12.8vw 0 0;
+  }
+
+  .main__advantages__map-title {
+    margin-bottom: 0;
+  }
+
+  .main__advantages__map-img {
+    max-width: inherit;
+    margin: 0 -16.733vw 0 -4vw;
+    width: calc(100% + 20.733vw);
+  }
+
+  .main__advantages__map-img--wrapper {
+    position: relative;
+    margin-bottom: 2.133vw;
+    margin: 0 -2.6667vw;
+    padding: 14.667vw 2.66665vw 15.179vw;
+    overflow: hidden;
+  }
+
+  .main__advantages__map-img {
+    position: relative;
+  }
+
+  .main__advantages__map-bg {
+    -o-object-fit: cover;
+    object-fit: cover;
+    margin: 0 -26.933vw 0 -17.067vw;
+    width: calc(100% + 44vw);
+  }
+
+  .main__advantages__map-loop {
+    display: block;
+    margin: 0 -2.66665vw;
+    padding: 8.533vw 2.66665vw 10.4vw;
+  }
+
+  .main__advantages__map-item {
+    margin-right: 0;
+    margin-bottom: 8.533vw;
+  }
+
+  .main__advantages__map-item:last-child {
+    margin-bottom: 0;
+  }
+
+  .main__advantages__map-item--icon {
+    width: 12.8vw;
+    height: 12.8vw;
+    margin-bottom: 2.133vw;
+  }
+
+  .main__advantages__map-item--title {
+    font-size: 6.4vw;
+    margin-bottom: 3.2vw;
+  }
+
+  .main__advantages__map-item--text {
+    font-size: 4.267vw;
+  }
+}
+/* End */
+
+/* Start:/local/templates/xcmg/components/bitrix/news.list/certificates/style.css?1664466463150*/
+div.news-list {
+  word-wrap: break-word;
+}
+div.news-list img.preview_picture {
+  float: left;
+  margin: 0 4px 6px 0;
+}
+.news-date-time {
+  color: #486daa;
+}
+
+/* End */
+/* /local/templates/xcmg/components/bitrix/news.list/welcome/style.css?16674616992212 */
+/* /local/templates/xcmg/components/bitrix/news.list/advantagesAbout/style.css?1664466463976 */
+/* /local/templates/xcmg/components/bitrix/news.list/servlicesList/style.css?16644664632997 */
+/* /local/templates/xcmg/components/bitrix/news.list/advantagesOnlyList/style.css?16644664631626 */
+/* /local/templates/xcmg/components/bitrix/news.list/advantagesMap/style.css?16644664632495 */
+/* /local/templates/xcmg/components/bitrix/news.list/certificates/style.css?1664466463150 */
