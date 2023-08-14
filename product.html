@@ -8,6 +8,7 @@
 
         <link href="vendor/css/styles1.css" type="text/css" rel="stylesheet">
         <link href="vendor/css/styles2.css" type="text/css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
         <link rel="stylesheet" href="new.css">
     </head>
 
@@ -16,58 +17,64 @@
             <div class="container">
                 <div class="catalog-product__content">
                     <a href="#" class="catalog-product__back-link">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15">
                             <path
-                                d="M13.125 6.87547H4.00871L7.31683 3.56734L6.43308 2.68359L1.61621 7.50047L6.43308 12.3173L7.31683 11.4336L4.00871 8.12547H13.125V6.87547Z"
-                                fill="#B2B2B2" />
+                                d="M13.125 6.87547H4.00871L7.31683 3.56734L6.43308 2.68359L1.61621 7.50047L6.43308 12.3173L7.31683 11.4336L4.00871 8.12547H13.125V6.87547Z" />
                         </svg>
                         Вернуться к каталогу
                     </a>
                     <div class="catalog-product__top-row">
                         <div class="catalog-product__gallery">
                             <div class="catalog-product__gallery-thumbs">
-                                <div class="swiper">
-                                    <div class="swiper-wrapper">
-                                        <div class="swiper-slide">
-                                            <a href="#" class="catalog-product__gallery-thumbs-card">
-                                                <img src="images/gallery/1.webp" alt=""
-                                                    class="catalog-product__gallery-thumbs-card-image">
-                                            </a>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <a href="#" class="catalog-product__gallery-thumbs-card">
-                                                <img src="images/gallery/2.webp" alt=""
-                                                    class="catalog-product__gallery-thumbs-card-image">
-                                            </a>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <a href="#" class="catalog-product__gallery-thumbs-card">
-                                                <img src="images/gallery/3.webp" alt=""
-                                                    class="catalog-product__gallery-thumbs-card-image">
-                                            </a>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <a href="#" class="catalog-product__gallery-thumbs-card">
-                                                <img src="images/gallery/1.webp" alt=""
-                                                    class="catalog-product__gallery-thumbs-card-image">
-                                            </a>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <a href="#" class="catalog-product__gallery-thumbs-card">
-                                                <img src="images/gallery/2.webp" alt=""
-                                                    class="catalog-product__gallery-thumbs-card-image">
-                                            </a>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <a href="#" class="catalog-product__gallery-thumbs-card">
-                                                <img src="images/gallery/3.webp" alt=""
-                                                    class="catalog-product__gallery-thumbs-card-image">
-                                            </a>
+                                <div class="catalog-product__gallery-thumbs-inner">
+
+
+                                    <div class="swiper">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <a href="#" class="catalog-product__gallery-thumbs-card">
+                                                    <img src="images/gallery/1.webp" alt=""
+                                                        class="catalog-product__gallery-thumbs-card-image">
+                                                </a>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <a href="#" class="catalog-product__gallery-thumbs-card">
+                                                    <img src="images/gallery/2.webp" alt=""
+                                                        class="catalog-product__gallery-thumbs-card-image">
+                                                </a>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <a href="#" class="catalog-product__gallery-thumbs-card">
+                                                    <img src="images/gallery/3.webp" alt=""
+                                                        class="catalog-product__gallery-thumbs-card-image">
+                                                </a>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <a href="#" class="catalog-product__gallery-thumbs-card">
+                                                    <img src="images/gallery/1.webp" alt=""
+                                                        class="catalog-product__gallery-thumbs-card-image">
+                                                </a>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <a href="#" class="catalog-product__gallery-thumbs-card">
+                                                    <img src="images/gallery/2.webp" alt=""
+                                                        class="catalog-product__gallery-thumbs-card-image">
+                                                </a>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <a href="#" class="catalog-product__gallery-thumbs-card">
+                                                    <img src="images/gallery/3.webp" alt=""
+                                                        class="catalog-product__gallery-thumbs-card-image">
+                                                </a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="catalog-product__gallery-main">
+
+
+
                                 <div class="swiper">
                                     <div class="swiper-wrapper">
                                         <div class="swiper-slide">
@@ -108,8 +115,9 @@
                                         </div>
                                     </div>
                                 </div>
+
                                 <div class="catalog-product__gallery-arrows">
-                                    <button class="catalog-product__gallery-arrow">
+                                    <button class="catalog-product__gallery-arrow catalog-product__gallery-arrow--prev">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22"
                                             viewBox="0 0 22 22" fill="none">
                                             <g clip-path="url(#clip0_7_734)">
@@ -125,7 +133,7 @@
                                             </defs>
                                         </svg>
                                     </button>
-                                    <button class="catalog-product__gallery-arrow">
+                                    <button class="catalog-product__gallery-arrow catalog-product__gallery-arrow--next">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22"
                                             viewBox="0 0 22 22" fill="none">
                                             <g clip-path="url(#clip0_7_729)">
@@ -228,11 +236,81 @@
                                                     700 кг на 9,8 м
                                                 </td>
                                             </tr>
+                                            <tr>
+                                                <th>
+                                                    Номинальная грузоподъемность
+                                                </th>
+                                                <td>
+                                                    3200 кг на 2,5 м
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th>
+                                                    Высота подъема макс
+                                                </th>
+                                                <td>
+                                                    12,8 м
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th>
+                                                    Рабочая высота макс.
+                                                </th>
+                                                <td>
+                                                    13,5 м
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th>
+                                                    Рабочий радиус макс
+                                                </th>
+                                                <td>
+                                                    9,8 м
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th>
+                                                    1 стрела
+                                                </th>
+                                                <td>
+                                                    2500 кг на 3,5 м
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th>
+                                                    2 стрела
+                                                </th>
+                                                <td>
+                                                    1370 кг на 5,5 м
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th>
+                                                    3 стрела
+                                                </th>
+                                                <td>
+                                                    1000 кг на 7,6 м
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th>
+                                                    4 стрела
+                                                </th>
+                                                <td>
+                                                    700 кг на 9,8 м
+                                                </td>
+                                            </tr>
                                         </tbody>
                                     </table>
                                 </div>
                                 <button class="catalog-product__small-specs-show-all">
-                                    Все характеристики
+                                    <span>
+                                        Все характеристики
+                                    </span>
+                                    <span>
+                                        Скрыть
+                                    </span>
+
                                 </button>
                             </div>
 
@@ -249,18 +327,231 @@
                             </a>
 
                             <div class="catalog-product__btns">
-                                <a href="#" class="catalog-product__btn">
-                                    Узнать цену
-                                </a>
                                 <a href="#" class="catalog-product__btn catalog-product__btn--filled">
                                     Узнать цену
+                                </a>
+                                <a href="#" class="catalog-product__btn">
+                                    Запросить КП
                                 </a>
                             </div>
                         </div>
                     </div>
+
+                    <div class="catalog__main-specs">
+                        <ul class="catalog__main-specs-list">
+                            <li class="catalog__main-specs-list-item">
+                                <h4 class="catalog__main-specs-title">
+                                    Производительсноть
+                                </h4>
+                                <div class="catalog__main-specs-table">
+                                    <table>
+                                        <tbody>
+                                            <tr>
+                                                <th>
+                                                    Номинальная грузоподъемность
+                                                </th>
+                                                <td>
+                                                    3200 кг на 2,5 м
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th>
+                                                    Высота подъема макс
+                                                </th>
+                                                <td>
+                                                    12,8 м
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th>
+                                                    Рабочая высота макс.
+                                                </th>
+                                                <td>
+                                                    13,5 м
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th>
+                                                    Рабочий радиус макс
+                                                </th>
+                                                <td>
+                                                    9,8 м
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th>
+                                                    1 стрела
+                                                </th>
+                                                <td>
+                                                    2500 кг на 3,5 м
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th>
+                                                    2 стрела
+                                                </th>
+                                                <td>
+                                                    1370 кг на 5,5 м
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th>
+                                                    3 стрела
+                                                </th>
+                                                <td>
+                                                    1000 кг на 7,6 м
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th>
+                                                    4 стрела
+                                                </th>
+                                                <td>
+                                                    700 кг на 9,8 м
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </li>
+                            <li class="catalog__main-specs-list-item">
+                                <h4 class="catalog__main-specs-title">
+                                    СТРЕЛА
+                                </h4>
+                                <div class="catalog__main-specs-table">
+                                    <table>
+                                        <tbody>
+                                            <tr>
+                                                <th>
+                                                    Количество секций
+                                                </th>
+                                                <td>
+                                                    4
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th>
+                                                    Скорость вращения колонны
+                                                </th>
+                                                <td>
+                                                    2 об/мин
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th>
+                                                    Канатоемкость лебедки
+                                                </th>
+                                                <td>
+                                                    Ø8 × 80 м
+                                                </td>
+                                            </tr>
+
+
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </li>
+                            <li class="catalog__main-specs-list-item">
+                                <h4 class="catalog__main-specs-title">
+                                    АУТРИГЕРЫ
+                                </h4>
+                                <div class="catalog__main-specs-table">
+                                    <table>
+                                        <tbody>
+                                            <tr>
+                                                <th>
+                                                    Передние
+                                                </th>
+                                                <td>
+                                                    4,1 м
+                                                </td>
+                                            </tr>
+
+
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="catalog__diagrams">
+                        <ul class="catalog__diagrams-list">
+                            <li class="catalog__diagrams-list-item">
+                                <h4 class="catalog__diagrams-title">
+                                    Размеры
+                                </h4>
+                                <div class="catalog__diagrams-image-wrapper">
+                                    <img src="images/diagram-1.webp" alt="" class="catalog__diagrams-image">
+                                </div>
+                            </li>
+                            <li class="catalog__diagrams-list-item">
+                                <h4 class="catalog__diagrams-title">
+                                    Размеры
+                                </h4>
+                                <div class="catalog__diagrams-image-wrapper">
+                                    <img src="images/diagram-2.webp" alt="" class="catalog__diagrams-image">
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </section>
+
+        <script type="module">
+            import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.mjs'
+
+            const galleries = Array.from(document.querySelectorAll('.catalog-product__gallery'));
+
+            console.log(galleries)
+
+            galleries.forEach(gallery => {
+                const mainContainer = gallery.querySelector('.catalog-product__gallery-main .swiper');
+                const thumbsContainer = gallery.querySelector('.catalog-product__gallery-thumbs .swiper');
+
+
+                const thumbsInstance = new Swiper(thumbsContainer, {
+                    direction: 'horizontal',
+                    slidesPerView: 5,
+                    spaceBetween: 8,
+                    breakpoints: {
+                        991: {
+                            direction: 'vertical',
+                            slidesPerView: 'auto',
+                            spaceBetween: 0
+                        }
+                    }
+                })
+
+                const mainInstance = new Swiper(mainContainer, {
+                    speed: 600,
+                    slidesPerView: 1,
+
+                    navigation: {
+                        prevEl: gallery.querySelector('.catalog-product__gallery-arrow--prev'),
+                        nextEl: gallery.querySelector('.catalog-product__gallery-arrow--next'),
+                    },
+                    thumbs: {
+                        swiper: thumbsInstance,
+                        autoScrollOffset: 1,
+                    },
+                })
+
+
+
+                console.log(mainInstance)
+            })
+
+            const showAllBtns = Array.from(document.querySelectorAll('.catalog-product__small-specs-show-all'))
+
+            showAllBtns.forEach(btn => {
+                btn.addEventListener('click', event => {
+                    event.preventDefault();
+                    btn.parentElement.classList.toggle('show-all')
+                })
+            })
+        </script>
     </body>
 
 </html>
